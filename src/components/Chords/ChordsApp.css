@@ -1,0 +1,61 @@
+.chords-app {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 800px;
+  background-color: #202020;
+  color: white;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.315);
+  border-style: solid;
+}
+
+.chords-result {
+  margin-left: -68px;
+}
+
+.select-options {
+  display: flex;
+}
+
+.note-select {
+  height: 25px;
+  width: 50px;
+  margin: 0px 10px;
+}
+.scale-select {
+  height: 25px;
+  margin: 0px 10px;
+}
+.inst-select {
+  height: 25px;
+  margin: 0px 10px;
+}
+
+.new-tab {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.new-tab:hover {
+  color: #0b5ed7;
+}
+
+.root {
+  font-weight: 600;
+  font-size: large;
+}
+
+.img-chords-container {
+  width: 700px;
+}
+
+.img-chords {
+  height: 120px;
+  margin-bottom: 5px;
+}

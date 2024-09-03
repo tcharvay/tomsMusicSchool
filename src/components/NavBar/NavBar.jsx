@@ -28,7 +28,7 @@ function NavBar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to='../Chords/ChordsContainer.jsx'>
+                <Link className="nav-link" to="../Chords/ChordsContainer.jsx">
                   Chords
                 </Link>
               </li>
@@ -38,7 +38,7 @@ function NavBar() {
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
-                  aria-expanded="false"                  
+                  aria-expanded="false"
                 >
                   Lessons
                 </Link>
@@ -60,8 +60,6 @@ function NavBar() {
                       Bass
                     </a>
                   </li>
-                
-                  
                 </ul>
               </li>
               <li className="nav-item dropdown">
@@ -76,15 +74,25 @@ function NavBar() {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <Link className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="#">
                       Tuner
                     </Link>
-                    <Link className="dropdown-item" to="../Metronome/MetronomeContainer.jsx">
+                    <Link
+                      className="dropdown-item"
+                      to="../Metronome/MetronomeContainer.jsx"
+                    >
                       Metronome
                     </Link>
+                    <Link
+                      className="dropdown-item"
+                      to="../Composer/ComposerContainer.jsx"
+                    >
+                      Piano composer
+                    </Link>
+                    <Link className="dropdown-item" to="#">
+                      Piano chord creator
+                    </Link>
                   </li>
-                
-                  
                 </ul>
               </li>
             </ul>

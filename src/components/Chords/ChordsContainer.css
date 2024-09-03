@@ -1,7 +1,6 @@
 .chords-container {
-    background-color: #FFFFFF;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-
+  background-color: #ffffff;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
 }

@@ -1,8 +1,13 @@
-# React + Vite
+Apoyarme en el chord y que me muestre tipo pop up el acorde basico
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Lessons / Guitar // Rock => Path / Blues => Path
 
-Currently, two official plugins are available:
+Circle of 5th
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Composer, agregar acordes y que los vaya mostrando = > Chord creator
+
+news,
+
+About ? explicacion estudios no formales forma personal practica de ver la musica
+
+users

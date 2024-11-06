@@ -1,9 +1,5 @@
 import React from "react";
 
-{
-  /* PASAR EL ARRAY A UN JSON */
-}
-
 const chordsArray = [
   {
     id: "Not Found",
@@ -87,7 +83,7 @@ const chordsArray = [
   },
   {
     id: "G Major",
-    scale: " G / A / Bb / C / D / E",
+    scale: " G / A / B / C / D / E / F#",
     chords: " G / Am / Bm / Cb / Db / Ebm / F°",
     imgPiano: "/PianoChords/G.png",
     imgGuitar: "/GuitarChords/G.png",

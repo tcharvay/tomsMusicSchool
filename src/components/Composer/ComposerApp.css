@@ -16,6 +16,14 @@
   scrollbar-color: rgb(113, 112, 112) #3c3c3c;
 }
 
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-save-btns {
+  margin-right: 10px;
+}
 .piano-chord {
   height: 55px;
 }
@@ -36,6 +44,31 @@
   border-radius: 3px;
 }
 
+.btn-add:hover,
+.btn-edit:hover,
+.btn-save:hover {
+  background-color: rgb(255, 23, 23);
+}
+
+.btn-edit {
+  border: none;
+  height: 25px;
+  width: 60px;
+  margin-right: 5px;
+  background-color: rgb(253, 44, 44);
+  color: white;
+  border-radius: 3px;
+}
+
+.btn-save {
+  border: none;
+  height: 25px;
+  width: 50px;
+  background-color: rgb(253, 44, 44);
+  color: white;
+  border-radius: 3px;
+}
+
 .display-chordProgression {
   display: flex;
   justify-content: flex-start;
@@ -45,4 +78,13 @@
   margin: 10px 0px 0px 10px;
   width: 250px;
   cursor: pointer;
+}
+
+.edit {
+  display: flex;
+}
+
+.edit-select {
+  width: 50px;
+  margin-left: 10px;
 }

@@ -47,6 +47,11 @@
   color: #0b5ed7;
 }
 
+.new-tab:hover {
+  color: #0d8922;
+}
+
+
 .root {
   font-weight: 600;
   font-size: large;

@@ -1,14 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "./NavBar.css";
 function NavBar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
+            <i className="fa-solid fa-music"></i>
             Tom's Music
           </a>
+
           <button
             className="navbar-toggler"
             type="button"

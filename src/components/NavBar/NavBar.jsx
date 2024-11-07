@@ -11,17 +11,6 @@ function NavBar() {
             Tom's Music
           </a>
 
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
@@ -34,7 +23,7 @@ function NavBar() {
                   Chords
                 </Link>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item dropdown lessons">
                 <Link
                   className="nav-link dropdown-toggle"
                   href="#"
@@ -64,7 +53,7 @@ function NavBar() {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item dropdown tools">
                 <a
                   className="nav-link dropdown-toggle"
                   href="#"
@@ -99,6 +88,28 @@ function NavBar() {
               </li>
             </ul>
           </div>
+        </div>
+        <div className="">
+          <div className="nav-item-login">
+            <Link className="nav-link-login" to="/">
+              <button type="button" className="btn-login">
+                <i className="fa-solid fa-house-user"></i>
+              </button>
+            </Link>
+          </div>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <button className="btn-menu">
+              <i className="fa-solid fa-bars"></i>
+            </button>
+          </button>
         </div>
       </nav>
     </div>

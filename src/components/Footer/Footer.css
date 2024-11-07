@@ -2,14 +2,19 @@
   background-color: #202020;
   height: 20vh;
   width: 100%;
+  margin-top: 10px;
+  padding-top: 10px;
   color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
 }
 
-.title {
-  margin-left: 10px;
-}
-
-li {
+.list li {
   list-style-type: none;
+}
+
+.mail-to {
+  color: #ffffff;
+  font-family: Arial;
+  margin-left: 6px;
+  text-decoration: none;
 }

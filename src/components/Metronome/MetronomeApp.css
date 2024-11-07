@@ -27,7 +27,7 @@
   margin: 12px;
 }
 
-.btn {
+.btn-metronome {
   display: flex;
   justify-content: center;
   background-color: rgb(253, 44, 44);
@@ -40,7 +40,7 @@
   width: 60px;
 }
 
-.btn:hover {
+.btn-metronome:hover {
   background-color: rgb(247, 19, 19);
 }
 

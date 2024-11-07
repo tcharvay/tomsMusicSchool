@@ -137,6 +137,8 @@ function Composer() {
       <div className="edit">
         {isVisible && (
           <ul>
+            Click on chord for edit.
+            <p>Chord Progression:</p>
             {chordProgression.map((item, index) => (
               <li type="1" key={index}>
                 {item.replace("/PianoChords/", "").replace(".png", "")}

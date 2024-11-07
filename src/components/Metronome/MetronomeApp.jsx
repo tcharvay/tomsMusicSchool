@@ -95,7 +95,7 @@ class MetronomeApp extends Component {
             onChange={this.handleBpmChange}
           />
         </div>
-        <button className="btn" onClick={this.startStop}>
+        <button className="btn-metronome" onClick={this.startStop}>
           {playing ? "Stop" : "Start"}
         </button>
       </div>

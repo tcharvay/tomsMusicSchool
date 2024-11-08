@@ -1,11 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import NewWindow from "../NewWindow/NewWindow";
 function News() {
   return (
     <div>
-        NEWSSS
+      NEWSSS Holas
+      <NewWindow />
     </div>
-  )
+  );
 }
 
-export default News
+export default News;

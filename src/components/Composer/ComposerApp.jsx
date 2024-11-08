@@ -3,14 +3,6 @@ import Selector from "../NoteScaleSelector/Selector";
 import chordsArray from "../../data/chordsArray";
 import "./ComposerApp.css";
 import Swal from "sweetalert2";
-
-{
-  /*
-  - sacar los strings y pasarlos a objetos
-  - inyectar al chords array el objeto (nota y posicion(id) )
-  
-  */
-}
 function Composer() {
   const [note, setNote] = useState("");
   const [scale, setScale] = useState("");
@@ -24,7 +16,6 @@ function Composer() {
     indexArray;
   } else
     indexArray = chordsArray.findIndex((item) => item.id === userSelection);
-  /* esto se repite en ChordsApp, podria hacerlo un componente*/
 
   const handleClick = () => {
     let newChord = chordsArray[indexArray].imgPiano;
@@ -129,7 +120,7 @@ function Composer() {
         </div>
         <div className="edit-save-btns">
           <button className="btn-edit" onClick={editToggleVisibility}>
-            {isVisible ? "Hide" : "Chords"}
+            {isVisible ? "Hide" : "Edit"}
           </button>
           <button className="btn-save">Save</button>
         </div>

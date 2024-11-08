@@ -15,6 +15,7 @@ function App() {
         <NavBar />
 
         <Routes>
+          <Route path="/News/News.jsx" element={<News />}></Route>
           <Route
             path="/Chords/ChordsContainer.jsx"
             element={<Chords />}

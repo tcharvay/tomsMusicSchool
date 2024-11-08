@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
+
 function NavBar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -11,10 +18,13 @@ function NavBar() {
             Tom's Music
           </a>
 
-          <div className="collapse navbar-collapse" id="navbarNavDropdown">
+          <div
+            className={`collapse navbar-collapse ${menuOpen ? "show" : ""}`}
+            id="navbarNavDropdown"
+          >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="../News/News.jsx">
                   News
                 </Link>
               </li>
@@ -67,21 +77,41 @@ function NavBar() {
                   <li>
                     <Link className="dropdown-item" to="#">
                       Tuner
+                      <img
+                        className="icon-menu"
+                        src="/public/icons/universal-tuner-svgrepo-com.svg"
+                        alt="tuner"
+                      />
                     </Link>
                     <Link
                       className="dropdown-item"
                       to="../Metronome/MetronomeContainer.jsx"
                     >
                       Metronome
+                      <img
+                        className="icon-menu"
+                        src="/public/icons/metronome-svgrepo-com.svg"
+                        alt="metronome"
+                      />
                     </Link>
                     <Link
                       className="dropdown-item"
                       to="../Composer/ComposerContainer.jsx"
                     >
                       Piano composer
+                      <img
+                        className="icon-menu"
+                        src="/public/icons/piano-svgrepo-com.svg"
+                        alt="piano"
+                      />
                     </Link>
                     <Link className="dropdown-item" to="#">
                       Piano chord creator
+                      <img
+                        className="icon-menu"
+                        src="/public/icons/idea-lamp-marketing-svgrepo-com.svg"
+                        alt="idea"
+                      />
                     </Link>
                   </li>
                 </ul>
@@ -100,15 +130,15 @@ function NavBar() {
           <button
             className="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
+            onClick={toggleMenu}
             aria-controls="navbarNavDropdown"
-            aria-expanded="false"
+            aria-expanded={menuOpen}
             aria-label="Toggle navigation"
           >
-            <button className="btn-menu">
-              <i className="fa-solid fa-bars"></i>
-            </button>
+            <i
+              className={`fa-solid ${menuOpen ? "fa-minus" : "fa-bars"}`}
+              aria-hidden="true"
+            ></i>
           </button>
         </div>
       </nav>

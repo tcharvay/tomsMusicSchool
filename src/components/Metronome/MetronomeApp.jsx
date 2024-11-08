@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import "./MetronomeApp.css";
+
 import click1 from "/Audio/click1.wav";
 import click2 from "/Audio/click2.wav";
-
-{
-  /* BUG SI ME MUEVO DE PAGINA SIGUE SONANDO PERO NO PUEDO IR DESPUES A APAGARLO */
-}
+import NewWindow from "../NewWindow/NewWindow";
 
 class MetronomeApp extends Component {
   constructor(props) {
@@ -83,7 +81,11 @@ class MetronomeApp extends Component {
 
     return (
       <div className="metronome">
-        <p className="new-tab-metronome">Open in new tab</p>
+        <div className="metronome-space">
+          <NewWindow />
+          <div className="space"></div>
+        </div>
+
         <div className="bpm-slider">
           <div className="bpm">{bpm} BPM</div>
           <input

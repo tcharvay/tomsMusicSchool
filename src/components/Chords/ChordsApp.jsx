@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./ChordsApp.css";
 import chordsArray from "../../data/chordsArray";
+import NewWindow from "../NewWindow/NewWindow";
 
 function ChordsApp() {
   const [note, setNote] = useState("C");
@@ -95,13 +96,7 @@ function ChordsApp() {
             <option value="imgPiano">Piano</option>
             <option value="imgUkelele">Ukelele</option>
           </select>
-          <Link
-            to="/chords/chordsContainer.jsx"
-            target="_blank"
-            className="new-tab"
-          >
-            Open in new tab
-          </Link>
+          <NewWindow />
         </div>
         <div>
           <p className="root"> {chordsArray[indexArray].id} </p>

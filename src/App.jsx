@@ -5,7 +5,7 @@ import Chords from "./components/Chords/ChordsContainer";
 import Footer from "./components/Footer/Footer";
 import MetronomeContainer from "./components/Metronome/MetronomeContainer";
 import NavBar from "./components/NavBar/NavBar";
-import News from "./components/News/News";
+import NewsContainer from "./components/News/NewsContainer";
 import ComposerContainer from "./components/Composer/ComposerContainer";
 
 function App() {
@@ -15,7 +15,10 @@ function App() {
         <NavBar />
 
         <Routes>
-          <Route path="/News/News.jsx" element={<News />}></Route>
+          <Route
+            path="/News/NewsContainer.jsx"
+            element={<NewsContainer />}
+          ></Route>
           <Route
             path="/Chords/ChordsContainer.jsx"
             element={<Chords />}

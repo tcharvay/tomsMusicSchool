@@ -8,8 +8,8 @@ function NewWindow() {
   function openNewWindow() {
     const url = `${window.location.origin}${location.pathname}`;
     console.log(location.pathname);
-    const width = 600;
-    const height = 400;
+    const width = 825;
+    const height = 525;
     const specs = `width=${width},height=${height},resizable=yes,scrollbars=yes`;
 
     // Abre la nueva ventana

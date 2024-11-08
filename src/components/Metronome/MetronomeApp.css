@@ -1,14 +1,18 @@
-.metronome {
+.metronome-app {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
-  width: 400px;
-  padding: 10px 30px 50px 30px;
-  margin-bottom: 135px;
-  background: #202020;
+  align-content: center;
+  height: 450px;
+  width: 800px;
+  background-color: #202020;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 1px;
+  padding-top: 20px;
   border-radius: 5px;
-  color: rgba(255, 255, 255, 0.945);
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.315);
+  border-style: solid;
 }
 
 .bpm {
@@ -18,13 +22,19 @@
   font-weight: 600;
 }
 
-.bpm-slider {
-  margin: 10px 0px;
+.slider {
+  display: flex;
+  justify-content: center;
 }
 
 .slide {
   width: 300px;
   margin: 12px;
+}
+
+.btn-start-stop {
+  display: flex;
+  justify-content: center;
 }
 
 .btn-metronome {
@@ -42,10 +52,4 @@
 
 .btn-metronome:hover {
   background-color: rgb(247, 19, 19);
-}
-
-.space {
-  width: 400px;
-  height: 1px;
-  background-color: red;
 }

@@ -15,7 +15,7 @@ function NavBar() {
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <i className="fa-solid fa-music"></i>
-            Tom's Music
+            Toms Music
           </a>
 
           <div
@@ -24,7 +24,7 @@ function NavBar() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link" to="../News/News.jsx">
+                <Link className="nav-link" to="../News/NewsContainer.jsx">
                   News
                 </Link>
               </li>

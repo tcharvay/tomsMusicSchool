@@ -79,7 +79,7 @@ function NavBar() {
                       Tuner
                       <img
                         className="icon-menu"
-                        src="/public/icons/universal-tuner-svgrepo-com.svg"
+                        src="/icons/universal-tuner-svgrepo-com.svg"
                         alt="tuner"
                       />
                     </Link>
@@ -90,7 +90,7 @@ function NavBar() {
                       Metronome
                       <img
                         className="icon-menu"
-                        src="/public/icons/metronome-svgrepo-com.svg"
+                        src="/icons/metronome-svgrepo-com.svg"
                         alt="metronome"
                       />
                     </Link>
@@ -101,7 +101,7 @@ function NavBar() {
                       Piano composer
                       <img
                         className="icon-menu"
-                        src="/public/icons/piano-svgrepo-com.svg"
+                        src="/icons/piano-svgrepo-com.svg"
                         alt="piano"
                       />
                     </Link>
@@ -109,7 +109,7 @@ function NavBar() {
                       Piano chord creator
                       <img
                         className="icon-menu"
-                        src="/public/icons/idea-lamp-marketing-svgrepo-com.svg"
+                        src="/icons/idea-lamp-marketing-svgrepo-com.svg"
                         alt="idea"
                       />
                     </Link>

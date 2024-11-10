@@ -32,7 +32,8 @@ const LoginApp = () => {
   return (
     <div className="login-form">
       <form onSubmit={handleSubmit}>
-        <div>
+        <div className="input-container">
+          <i className="fa-solid fa-user"></i>
           <input
             className="user"
             type="text"
@@ -44,6 +45,7 @@ const LoginApp = () => {
           />
         </div>
         <div className="div-password">
+          <i className="fa-solid fa-lock"></i>
           <input
             className="password"
             type={showPassword ? "text" : "password"}
@@ -59,16 +61,11 @@ const LoginApp = () => {
               type="button"
               onClick={togglePasswordVisibility}
             >
-              {/*showPassword ? "Hide" : "Show" */}
-
               <i
                 className={`fa-solid ${
                   showPassword ? "fa-eye" : "fa-eye-slash"
                 }`}
               ></i>
-
-              {/*<i class="fa-solid fa-eye"></i>*/}
-              {/*<i class="fa-solid fa-eye-slash"></i>*/}
             </button>
           </div>
         </div>

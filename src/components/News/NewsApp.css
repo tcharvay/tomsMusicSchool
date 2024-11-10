@@ -17,16 +17,22 @@
 #carouselExampleAutoplaying {
   width: 750px;
   height: 200px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .carousel {
   display: flex;
   justify-content: center;
+  border-radius: 5px;
+  object-fit: contain;
 }
 
 .static {
   display: flex;
   justify-content: center;
+  border-radius: 3px;
+  object-fit: contain;
 }
 
 .static-news {
@@ -34,11 +40,15 @@
   justify-content: center;
   width: 750px;
   height: 180px;
-  background-color: red;
+
+  border-radius: 3px;
+  object-fit: contain;
 }
 
 .static-news-card {
-  background-color: red;
   height: 180px;
   width: 375px;
+  border-radius: 5px;
+  object-fit: contain;
+  overflow: hidden;
 }

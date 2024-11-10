@@ -14,8 +14,8 @@ function App() {
     <div>
       <BrowserRouter>
         <NavBar />
-
         <Routes>
+          <Route path="/" element={<NewsContainer />} />
           <Route
             path="/News/NewsContainer.jsx"
             element={<NewsContainer />}

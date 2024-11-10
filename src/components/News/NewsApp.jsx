@@ -6,9 +6,11 @@ function NewsApp() {
       <div className="static">
         <div className="static-news">
           <div className="static-news-card">
-            <img src="/News/static-news.png" />
+            <img src="/News/static-news.png" className="img-static" />
           </div>
-          <div className="static-news-card"></div>
+          <div className="static-news-card">
+            <img src="/News/static-news.png" className="img-static" />
+          </div>
         </div>
       </div>
       <div className="carousel">

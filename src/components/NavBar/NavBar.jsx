@@ -121,7 +121,7 @@ function NavBar() {
         </div>
         <div className="">
           <div className="nav-item-login">
-            <Link className="nav-link-login" to="/">
+            <Link className="nav-link-login" to="../Login/LoginContainer.jsx">
               <button type="button" className="btn-login">
                 <i className="fa-solid fa-house-user"></i>
               </button>

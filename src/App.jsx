@@ -7,6 +7,7 @@ import MetronomeContainer from "./components/Metronome/MetronomeContainer";
 import NavBar from "./components/NavBar/NavBar";
 import NewsContainer from "./components/News/NewsContainer";
 import ComposerContainer from "./components/Composer/ComposerContainer";
+import LoginContainer from "./components/Login/LoginContainer";
 
 function App() {
   return (
@@ -30,6 +31,10 @@ function App() {
           <Route
             path="/Composer/ComposerContainer.jsx"
             element={<ComposerContainer />}
+          ></Route>
+          <Route
+            path="/Login/LoginContainer.jsx"
+            element={<LoginContainer />}
           ></Route>
         </Routes>
         <Footer />

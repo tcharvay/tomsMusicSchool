@@ -6,8 +6,4 @@ Circle of 5th
 
 Composer, agregar acordes y que los vaya mostrando = > Chord creator
 
-news,
-
-About ? explicacion estudios no formales forma personal practica de ver la musica
-
 users
